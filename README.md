@@ -22,3 +22,26 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## RUN
+
+#### Configurar bundle e databases
+
+```sh
+make setup
+```
+
+#### Executando server em http://localhost:3000
+
+```sh
+make up
+```
+
+#### Executando testes
+
+```sh
+make test
+```
+
+### Autora
+Graziele Vasconcelos
