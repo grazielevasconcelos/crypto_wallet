@@ -1,0 +1,6 @@
+build-base
+sqlite
+sqlite-dev
+sqlite-libs
+nodejs
+tzdata
