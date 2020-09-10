@@ -38,14 +38,14 @@ stop:
 # 	$(call dc-run, bundle exec rails console)
 
 # For projects with databases and
-# db-create:
-# 	$(call dc-run, bundle exec rake db:create)
-# db-migrate:
-# 	$(call dc-run, bundle exec rake db:migrate)
-# db-test-migrate:
-# 	$(call dc-run, bundle exec rake db:migrate RAILS_ENV=test)
-# rspec:
-# 	$(call dc-run, bundle exec rspec)
+db-create:
+	$(call dc-run, bundle exec rake db:create)
+db-migrate:
+	$(call dc-run, bundle exec rake db:migrate)
+db-test-migrate:
+	$(call dc-run, bundle exec rake db:migrate RAILS_ENV=test)
+rspec:
+	$(call dc-run, bundle exec rspec)
 
 
 # .PHONY: test
